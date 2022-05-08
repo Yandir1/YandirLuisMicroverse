@@ -18,7 +18,7 @@
       <input type="text" id="name" placeholder="Ingresa tu nombre" required>
 
       <label id="email-label" for="email">Ingresa tu mail</label>
-      <input type="text" id ="email" pattern=".+@hotmail.com" placeholder="@hotmail.com" required>
+      <input type="email" id ="email" pattern=".+@hotmail.com" placeholder="@hotmail.com" required>
 
       <label id="number-label" for="number">Ingresa tu edad:</label>
       <input type="number" id="number" min="18" max="99" placeholder="Ingresa tu edad">
@@ -31,16 +31,30 @@
       </select>
 
 
+      <label id="email-label" for="radio11">seleciona completamente</label>
+      <input value="completamente" type="radio" name="grupo1" id="radio11">
 
-      <input type="radio" name="grupo1">
-      <input type="radio" name="grupo1">
-
-      <input type="radio" name="grupo2">
-      <input type="radio" name="grupo2">
-
+      <label id="email-label" for="radio12">seleciona quizas</label>
+      <input value="quizas" type="radio" name="grupo1" id="radio12">
 
 
 
+
+      <label for="ck1">completamente</label>
+      <input value="completamente" type="checkbox" id="ck1" >
+
+      <label for="ck2">quizas</label>
+      <input value="quizas" type="checkbox" id="ck2" >
+
+      <label  for="ck3">poco</label>
+      <input value="poco" type="checkbox" id="ck3" >
+
+      <label  for="ck4">mucho</label>
+      <input value="mucho" type="checkbox" id="ck4">
+
+<textarea name="coments" id="coments" cols="20" rows="20"></textarea>
+
+    <button id="submit">registro</button>
 
     </form>
 
