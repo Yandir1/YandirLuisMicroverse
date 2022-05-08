@@ -10,11 +10,33 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <h1 id="title">surver form yandir y luis</h1>
-    <p id="decription"> es esta para microverse</p>
-    <form id="surver-form" action="">
-      <input type="text" id="name" >
-      <input type="text" id ="email" pattern=".+@hotmail.com">
-      <input type="number" id="number" min="18" max="99">
+    <p id="description"> es esta para microverse</p>
+
+    <form id="survey-form" action="">
+
+      <label id="name-label" for="name">Ingresa tu nombre</label>
+      <input type="text" id="name" placeholder="Ingresa tu nombre" required>
+
+      <label id="email-label" for="email">Ingresa tu mail</label>
+      <input type="text" id ="email" pattern=".+@hotmail.com" placeholder="@hotmail.com" required>
+
+      <label id="number-label" for="number">Ingresa tu edad:</label>
+      <input type="number" id="number" min="18" max="99" placeholder="Ingresa tu edad">
+
+      <label for="dropdown">Selecciona tu trabajo</label>
+      <select id="dropdown">
+        <option>Empresario</option>
+        <option>Maestro</option>
+        <option>Estudiante</option>
+      </select>
+
+
+
+      <input type="radio" name="grupo1">
+      <input type="radio" name="grupo1">
+
+      <input type="radio" name="grupo2">
+      <input type="radio" name="grupo2">
 
 
 
