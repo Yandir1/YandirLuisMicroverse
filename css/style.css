@@ -1,0 +1,16 @@
+body{
+    background-color: bisque;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}
